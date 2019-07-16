@@ -6,9 +6,43 @@
 #4. Realizar una visualización de la simulación.
 
 
+
+#class Fila(object):
+#    def __init__(self):
+#        self.enfila=0
+#        self.fila = []
+
+# from random import randrange
+# print(randrange(30E6,40E6))
+#
+#class FilaPreferencial(Fila):
+#    def insertar(self, cliente):
+#        pass
+
+#    def atender(self):
+#        """Atiende al proximo cliente prederencial"""
+#        self.enfila-=1
+#        self.fila.pop(0)
+
+
+#class Dog:
+
+#    kind = 'canine'         # class variable shared by all instances
+
+#    def __init__(self, name):
+#        self.name = name    # instance variable unique to each instance
+
+
+
+
+
+
+
+
+
+
 class Fila(object):
     """Clase base de fila"""
-
     def __init__(self):
          """constructor de la clase Fila """
         self.enfila= 0
@@ -43,7 +77,7 @@ class FilaGeneral(Fila):
         """Atiende al proximo cliente prederencial"""
         pass      
 
-    
+
 
 class cliente(object):
      """clase cliente """
