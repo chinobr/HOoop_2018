@@ -1,3 +1,11 @@
+## Tareas
+
+#1. Completar la implementación de los métodos faltantes en las diferentes clases.
+#2. Completar el módulo main que realice la simulación de atención a medida que llegan los clientes.
+#3. Crear un método que muestre la fila de clientes de cada tipo.
+#4. Realizar una visualización de la simulación.
+
+
 class Fila(object):
     """Clase base de fila"""
 
